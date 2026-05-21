@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini player</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <script src="src/js/script.js" defer> </script>
+    <div id="player">
+        <div id="photo">
+            <img  src="src/assets/images/image1.png" alt="song image" id="image">
+        </div>
+        <div id="songandartistname">
+            <p>Shape Of You</p>
+            <p>Ed Sheeran</p>
+        </div>
+        <div id="controls">
+            <div id="progressbar">
+                <span>0:00</span>
+                <input 
+                type="range"
+                id="progress"
+                min="0"
+                max="100"
+                value="0">
+                <span>3:45</span>
+            </div>
+            <button class="keys" onclick="actionPlayer('back')"><</button>
+            <button class="keys" onclick="actionPlayer('input')">pause</button>
+            <button class="keys" onclick="actionPlayer('forward')">></button>
+        </div>
+    </div>
+</body>
+</html>

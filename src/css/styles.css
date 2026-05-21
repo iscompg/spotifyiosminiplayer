@@ -1,0 +1,70 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(4, 46, 22);
+    margin: 0;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#photo{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(49, 118, 92);
+    padding: 10px;
+}
+#songandartistname{
+    height: 30px;
+    width: 400px;
+    background-color: rgb(49, 118, 92);
+    padding: 10px;
+}
+#progressbar{
+    -webkit-appearance: none;
+    width: 400px;
+    align-items: center;
+    background: #093511;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 10px;
+    height: 10px;
+    background: #093511;
+    border-radius: 20px;
+
+}
+
+#image{
+    width: 400px;
+    height: 370px;
+    align-items: center;
+}
+
+button{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    color: rgb(226, 225, 192);
+    background-color: rgb(4, 34, 21);
+    border-style: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 47, 33);
+}
+button:active{
+    background-color: rgb(65, 93, 86);
+}
+#controls{
+    background-color: rgb(40, 103, 80);
+    padding: 10px;
+}
+
+#slider{
+    width: 100px;
+    height: 10px;
+}
+
