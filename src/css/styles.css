@@ -10,7 +10,7 @@ body{
 
 #player{
     max-width: 500px;
-    background-color: rgb(49, 118, 92);
+    background-color: rgb(19, 84, 59);
     height: 700px;
     width: 450px;
     border-radius: 20px;
@@ -23,7 +23,8 @@ body{
 #songandartistname{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
-
+    text-align: left;
+    padding-left: 30px;
 }
 
 #progressbar{
@@ -31,16 +32,15 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    color: antiquewhite;
 }
-#progressbar{
+#progress{
     -webkit-appearance: none;
-    width: 400px;
+    width: 300px;
     height: 20px;
-    background: #093511;
+    background: rgb(168, 225, 168);
     border-radius: 20px;
     cursor: pointer;
-    padding-bottom: 2px;
-    color: antiquewhite;
 }
 #progress::-webkit-slider-thumb{
     -webkit-appearance:none;
@@ -59,7 +59,7 @@ body{
 
 button{
     height: 75px;
-    width: 75px;
+    width: 80px;
     border-radius: 30px;
     color: antiquewhite;
     background-color: rgb(4, 34, 21);
