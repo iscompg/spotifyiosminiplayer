@@ -8,33 +8,47 @@ body{
     text-align: center;
 }
 
-#photo{
-    height: 400px;
-    width: 400px;
+#player{
+    max-width: 500px;
     background-color: rgb(49, 118, 92);
-    padding: 10px;
+    height: 700px;
+    width: 450px;
+    border-radius: 20px;
 }
+
+#photo{
+    padding-top: 40px;
+}
+
 #songandartistname{
-    height: 30px;
-    width: 400px;
-    background-color: rgb(49, 118, 92);
-    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+#progressbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 #progressbar{
     -webkit-appearance: none;
     width: 400px;
-    align-items: center;
+    height: 20px;
     background: #093511;
     border-radius: 20px;
     cursor: pointer;
+    padding-bottom: 2px;
+    color: antiquewhite;
 }
 #progress::-webkit-slider-thumb{
     -webkit-appearance:none;
+    background-color: #093511;
+    cursor: pointer;
     width: 10px;
     height: 10px;
-    background: #093511;
     border-radius: 20px;
-
 }
 
 #image{
@@ -44,13 +58,15 @@ body{
 }
 
 button{
-    height: 80px;
-    width: 80px;
-    border-radius: 40px;
-    color: rgb(226, 225, 192);
+    height: 75px;
+    width: 75px;
+    border-radius: 30px;
+    color: antiquewhite;
     background-color: rgb(4, 34, 21);
     border-style: none;
+    margin-top: 10px;
 }
+
 button:hover{
     cursor: pointer;
     background-color: rgb(3, 47, 33);
@@ -59,7 +75,6 @@ button:active{
     background-color: rgb(65, 93, 86);
 }
 #controls{
-    background-color: rgb(40, 103, 80);
     padding: 10px;
 }
 

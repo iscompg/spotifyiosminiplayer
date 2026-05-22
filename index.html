@@ -8,15 +8,18 @@
 </head>
 <body>
     <script src="src/js/script.js" defer> </script>
+
     <div id="player">
+
         <div id="photo">
             <img  src="src/assets/images/image1.png" alt="song image" id="image">
         </div>
         <div id="songandartistname">
-            <p>Shape Of You</p>
-            <p>Ed Sheeran</p>
+            <p>Shape Of You <br>Ed Sheeran</p>
         </div>
+
         <div id="controls">
+
             <div id="progressbar">
                 <span>0:00</span>
                 <input 
@@ -27,9 +30,11 @@
                 value="0">
                 <span>3:45</span>
             </div>
+
             <button class="keys" onclick="actionPlayer('back')"><</button>
             <button class="keys" onclick="actionPlayer('input')">pause</button>
             <button class="keys" onclick="actionPlayer('forward')">></button>
+
         </div>
     </div>
 </body>
