@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mini player</title>
+    <title>MiniPlayer</title>
     <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
     <div id="player">
 
         <div id="photo">
-            <img  src="src/assets/images/image2.png" alt="song image" id="image">
+            <img  src="src/assets/images/songs/image2.png" alt="song image" id="image">
         </div>
         <div id="songandartistname">
             <p>LUSH<br>Mitski</p>
@@ -31,9 +31,17 @@
                 <span>3:45</span>
             </div>
 
-            <button class="keys" onclick="actionPlayer('back')"><</button>
-            <button class="keys" onclick="actionPlayer('input')">pause</button>
-            <button class="keys" onclick="actionPlayer('forward')">></button>
+            <button class="keys" onclick="actionPlayer('back')">
+                <img src="src/assets/images/buttons/backward.png">
+            </button>
+
+            <button class="keys" onclick="actionPlayer('input')">
+                pause
+            </button>
+
+            <button class="keys" onclick="actionPlayer('forward')">
+                <img src="src/assets/images/buttons/forward.png">
+            </button>
 
         </div>
     </div>
