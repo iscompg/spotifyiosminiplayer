@@ -70,17 +70,14 @@ button{
     background-color: rgb(4, 34, 21);
     border-style: none;
     margin-top: 10px;
+    gap: 10px;
 }
 
 button:hover{
     cursor: pointer;
-    background-color: rgb(3, 47, 33);
-}
-button:active{
-    background-color: rgb(65, 93, 86);
 }
 button img{
-    height: 60px;
+    height: 110px;
     width: 130px;
     object-fit: contain;
     border-radius: 100px;
