@@ -64,10 +64,10 @@ button{
     justify-content: center;
     align-items: center;
     height: 75px;
-    width: 80px;
+    width: 75px;
     border-radius: 50px;
     color: antiquewhite;
-    background-color: rgb(4, 34, 21);
+    background-color: rgb(51, 129, 96);
     border-style: none;
     margin-top: 10px;
     gap: 10px;
@@ -76,11 +76,15 @@ button{
 button:hover{
     cursor: pointer;
 }
+button:active{
+    background-color: rgb(19, 74, 50);
+}
 button img{
-    height: 110px;
-    width: 130px;
+    height: 75px;
+    width: 75px;
     object-fit: contain;
     border-radius: 100px;
+    object-fit: contain;
 }
 
 #controls{
