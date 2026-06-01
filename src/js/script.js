@@ -16,4 +16,12 @@ function actionPlayer(action){
             isPlaying=true;
         }
     }
+
+    song.addEventListener("timeupdate", ()=>{
+        progress.value=(song.currentTime/song.duration)*100;
+    });
+
+    progress.addEventListener("input", ()=>{
+        song.currentTime= (progress.value/100)*song.duration;
+    });
 }
