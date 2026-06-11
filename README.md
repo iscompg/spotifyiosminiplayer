@@ -14,7 +14,7 @@ Real-time progress bar and timer
 Seek through songs using slider
 Dark Spotify-inspired aesthetic UI
 
-## Built With
+## TechStack
 
 HTML5
 CSS3
@@ -26,5 +26,5 @@ https://iscompg.github.io/spotifyiosminiplayer/
 ```
 ## Author 
 
-Ishani Arora
+Ishani Arora <br>
 (iscompg)
