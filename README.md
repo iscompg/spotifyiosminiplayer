@@ -20,7 +20,7 @@ HTML5
 CSS3
 JavaScript
 
-## 🌐 Live Demo
+## Live Demo
 ```
 https://iscompg.github.io/spotifyiosminiplayer/
 ```
